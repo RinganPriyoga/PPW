@@ -87,7 +87,7 @@ h2 {
 
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: wrap;
   margin: 10px 0;
   overflow: hidden;
   border-radius: 8px;
