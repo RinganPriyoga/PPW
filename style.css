@@ -1,14 +1,14 @@
-* {box-sizing: border-box;}
+* {
+box-sizing: border-box;
+}
 
 html {scroll-behavior: smooth;}
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
   background-color: #f4f4f4;
-  color: #333;
+  color: #3E0703;
 }
 
 header, nav, main, footer {
@@ -18,9 +18,6 @@ header, nav, main, footer {
   padding: 20px;
 }
 
-header {
-  text-align: center;
-}
 header h1 {
   margin: 0 0 4px;
 }
@@ -35,42 +32,39 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border-top: 4px solid #9cbbfa;
-  border-bottom: 4px solid #9cbbfa;
+  border-top: 4px solid #8C1007;
+  border-bottom: 4px solid #8C1007;
   background-color: #f8f8f8f4;
 }
 
 nav a {
   display: inline-block;
   padding: 9px 15px;
-  border-radius: 6px;
+  border-radius: 8px;
   text-decoration: none;
-  color: #1f2937;
+  color: #3E0703;
 }
 
 nav a:hover {
-  background-color: rgb(230, 230, 230);
+  background-color: #FFF0C4;
 }
 
 main {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   align-items: flex-start;
 }
 
 main p {
   text-align: justify;
-  text-justify: inter-word;
 }
 
 main section {
   flex: 1 1 100%;
   background-color: #fff;
-  border: 1px solid #e5e7eb;
-  margin: 5px;
+  margin: 2px;
   padding: 20px;
   border-radius: 14px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
 
 figure {margin: 0 0 10px;}
@@ -84,10 +78,10 @@ figure img {
 }
 
 h2 {
-  border-bottom: 2px solid #9cbbfa;
+  border-bottom: 2px solid #660B05;
   padding-bottom: 6px;
   margin-bottom: 10px;
-  color: #88a6e0;
+  color: #660B05;
 }
 
 
@@ -99,13 +93,11 @@ table {
   border-radius: 8px;
 }
 th, td {
-  padding: 12px 15px;
+  padding: 10px 50px;
   text-align: center;
-  border-bottom: 1px solid rgb(128, 128, 128);
+  border-bottom: 1px solid #660B05;
 }
-thead th {
-  background: #9cbbfa;
-}
+
 
 address {
   font-style: normal; 
